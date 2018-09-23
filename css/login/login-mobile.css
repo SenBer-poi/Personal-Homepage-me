@@ -1,0 +1,12 @@
+.bar-nav {
+  padding-left:5px;
+  padding-right: 5px;
+}
+
+.fr .item {
+  display: none;
+}
+
+.left {
+  left: 10%;
+}

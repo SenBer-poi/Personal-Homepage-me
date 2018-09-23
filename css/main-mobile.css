@@ -1,0 +1,58 @@
+.side-bar-title h3 {
+  margin-top:30px;
+  padding: 5%;
+  line-height: 1.7;
+}
+.first-tbody {
+  margin-top: 30px;
+}
+.fr .item {
+  display: none;
+}
+.bar-nav {
+  padding-left:5px;
+  padding-right: 5px;
+}
+.item-button {
+  display: none;
+}
+.sec-fl h1{
+  margin-left: 10%;
+}
+
+.i img {
+  margin-left: 20%;
+}
+
+.i .iix {
+  margin-left: 0;
+}
+
+.sec-fl {
+  margin-left: 5%;
+  margin-right: 5%;
+  width: 90%;
+  float:none;
+}
+.sec-fr {
+  margin-left: 5%;
+  margin-right: 5%;
+  width: 90%;
+  float:none;
+}
+.second-bar-background {
+  height: auto;
+}
+.third-bar-background {
+  height: auto;
+}
+.item-backup {
+  position: fixed;
+  right: 20px;
+  bottom: 50px;
+  width: 45px;
+  height: 45px;
+}
+.side-bar-title h3 {
+  text-indent: 2em;
+}

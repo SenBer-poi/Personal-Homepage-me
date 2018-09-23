@@ -1,0 +1,295 @@
+* {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 16px;
+  font-weight: 500;
+  color: #FFF;
+  background: #f9f9f9;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  display: block;
+  max-width: 100%; /*将图片大小限制为100%*/
+}
+
+.side-bar-background,
+.side-bar-images2,
+.side-bar-images3,
+.second-bar-background,
+.third-bar-background {
+  width: 100%;
+  height: 800px;
+}
+
+.footer-background {
+  width: 100%;
+  height: 100px;
+  background: #524664;
+}
+
+.side-bar-background {
+  background: url(../img/start-header-images.jpg);
+}
+
+.second-bar-background {
+  background: #524664;
+  height: 1300px;
+}
+
+.third-bar-background {
+  background: url(../img/start-header-images4.jpg);
+}
+
+.side-bar-images2 {
+  background: url(../img/start-header-images2.jpg);
+}
+
+.side-bar-images3 {
+  background: url(../img/start-header-images3.jpg);
+}
+
+.side-bar-background .my-logo-images,
+.second-bar-background .second-logo-images,
+.third-bar-background .third-logo-images {
+  margin: 0 auto;
+  padding-top: 100px;
+}
+
+.header .logo {
+  line-height: 1;
+  border: 5px solid #eee;
+  padding: 10px 20px; /*前指上下后指左右*/
+  display: inline-block;
+  font-size: 30px;
+  margin-bottom: 15px;
+}
+
+.container {
+  display: block;
+  margin: 0 auto;
+  color: #FFF;
+}
+
+.top-nav {
+  background: #524664;
+
+}
+
+.top-nav .container {
+  max-width: 1080px;
+  padding: 20px;
+  font-size: 18px;
+}
+
+.fl {
+  float: left;
+  line-height: 34px;
+}
+
+.fl .item {
+  padding: 5px;
+  border: 1px solid #524664;
+  border-radius: 8px;
+}
+
+.fr {
+  float: right;
+}
+
+.fr .item {
+  margin-right: 30px;
+  margin-left: 5px;
+  padding: 5px;
+  border: 1px solid #524664;
+  border-radius: 8px;
+}
+
+.fl .item,
+.fr .item {
+  color: #FFF;
+}
+
+.fl .item:hover,
+.fr .item:hover {
+  color: #777;
+
+  border: 1px solid blue ;
+  border-radius: 8px;
+}
+
+.clear-float:after,
+.clear-float:before {
+  content: " ";
+  display: block;
+  clear: both; /*清除浮动(重点)*/
+}
+
+.item-logo {
+    width: 20px;
+    height: 20px;
+    position: relative;
+    display: inline-block;
+    top: 3px;
+}
+
+ .sidebar {
+  position: absolute;
+  left: 10%;
+}
+
+.bar-nav {
+  position: absolute;
+  top:74px;
+  background: rgba(255, 255, 255, 0.5);
+  max-width: 650px;
+  display: none;
+  border-bottom-right-radius:8px;
+  border-bottom-left-radius:8px;
+  padding-left: 110px;
+  padding-right: 110px;
+}
+
+#menu-checkbox:checked ~ .bar-nav {
+  display: block;
+}
+
+#menu-checkbox {
+  display: none;
+}
+
+.side-bar-title >* {
+  text-align: center;
+  font-weight: 400;
+}
+
+.side-bar-title h1 {
+  font-size: 30px;
+  font-weight: 800;
+}
+
+.side-bar-title span {
+  font-weight: 800;
+}
+
+.side-bar-title h3 {
+  margin-top: 100px;
+}
+
+.side-bar,
+.second-bar,
+.third-bar {
+  max-width: 1080px;
+  margin: 0 auto;
+}
+
+.first-tbody {
+  margin-top: 80px;
+  min-width: 100%;
+  display: inline-block;
+}
+
+.first-tbody img {
+  width: 20px;
+  height: 20px;
+  float: left;
+  margin-right: 10px;
+}
+
+.first-tbody .first-tbody-text {
+  display: inline-block;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.seb-text1 {
+  font-weight: 800;
+  font-size: 30px;
+  margin-top: 20px;
+  text-align: center;
+}
+
+.sec-fl {
+  float: left;
+  margin-right: 8%;
+  margin-left: 2%;
+}
+.sec-fr {
+  float: right;
+  margin-left: 8%;
+  margin-right: 2%;
+}
+.sec-fl,
+.sec-fr {
+  margin-top: 50px;
+  width: 40%;
+  font-size: 18px;
+  line-height: 1.7;
+}
+
+.third-full {
+  width: 92%;
+  margin-top: 50px;
+  margin-left: 4%;
+  margin-right: 4%;
+}
+
+.text-logo {
+  margin-top: 30px;
+  margin: 0 auto;
+}
+.text-my {
+  margin-bottom: 30px;
+}
+.i img {
+  width: 30px;
+  height: 30px;
+  padding: 5px;
+  margin-top: 10px;
+}
+.i h3,
+.i h4 {
+  margin-block-start: 5px;
+  margin-block-end: 5px;
+}
+.i h4,
+.third-full h3{
+  color: #999;
+}
+.i .t,
+.i .t1 {
+  text-align: center;
+  line-height: 1.5;
+}
+.t2 {
+  color: #FFF;
+  font-size: 22px;
+}
+.third-full .t1,
+.text-my {
+  text-indent: 2em;
+}
+
+.footer {
+  text-align: center;
+  color: #777;
+  padding-top: 40px;
+}
+
+.item-backup {
+  position: fixed;
+  right: 50px;
+  bottom: 50px;
+  width: 60px;
+  height: 60px;
+}
+
+.t-bo {
+  padding-bottom: 15%;
+}

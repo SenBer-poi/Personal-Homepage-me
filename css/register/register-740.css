@@ -1,0 +1,20 @@
+.bar-nav {
+  padding-left:5px;
+  padding-right: 5px;
+}
+
+.fr .item {
+  display: none;
+}
+
+.left h1 {
+  font-size: 24px;
+  margin-top: 40px;
+}
+
+.left,
+.right {
+  margin-right: 5%;
+  width: 80%;
+  left: 10%;
+}

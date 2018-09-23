@@ -1,0 +1,14 @@
+.left {
+  height: 530px;
+  padding: 10%;
+}
+
+.right {
+  margin-top: 630px;
+  padding: 10%;
+  padding-top: 0;
+}
+
+.button-input {
+  margin-top: 20px;
+}
