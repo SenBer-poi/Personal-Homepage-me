@@ -23,7 +23,8 @@ img {
 .side-bar-images2,
 .side-bar-images3,
 .second-bar-background,
-.third-bar-background {
+.third-bar-background,
+.fourth-bar-background {
   width: 100%;
   height: 800px;
 }
@@ -41,6 +42,11 @@ img {
 .second-bar-background {
   background: #524664;
   height: 1300px;
+}
+
+.fourth-bar-background {
+  background: #524664;
+  height: auto;
 }
 
 .third-bar-background {
@@ -184,9 +190,14 @@ img {
 
 .side-bar,
 .second-bar,
-.third-bar {
+.third-bar,
+.fourth-bar {
   max-width: 1080px;
   margin: 0 auto;
+}
+
+.fourth-full {
+  padding-top: 50px;
 }
 
 .first-tbody {
@@ -233,11 +244,20 @@ img {
   line-height: 1.7;
 }
 
-.third-full {
+.third-full,
+.fourth-full {
   width: 92%;
   margin-top: 50px;
   margin-left: 4%;
   margin-right: 4%;
+}
+
+.fourth-full h1 {
+  padding-top: 80px;
+}
+
+.fourth-full {
+  margin-top: 0px;
 }
 
 .text-logo {
@@ -259,7 +279,8 @@ img {
   margin-block-end: 5px;
 }
 .i h4,
-.third-full h3{
+.third-full h3,
+.fourth-full h3 {
   color: #999;
 }
 .i .t,
@@ -272,6 +293,7 @@ img {
   font-size: 22px;
 }
 .third-full .t1,
+.fourth-full .t1,
 .text-my {
   text-indent: 2em;
 }
@@ -292,4 +314,11 @@ img {
 
 .t-bo {
   padding-bottom: 15%;
+}
+
+.third-full .t1,
+.fourth-full .t1 {
+  line-height: 1.5;
+  font-size: 18px;
+  padding-bottom: 30px;
 }

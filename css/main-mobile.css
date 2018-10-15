@@ -40,12 +40,12 @@
   width: 90%;
   float:none;
 }
-.second-bar-background {
+.second-bar-background,
+.third-bar-background,
+.fourth-bar-background {
   height: auto;
 }
-.third-bar-background {
-  height: auto;
-}
+
 .item-backup {
   position: fixed;
   right: 20px;
@@ -55,4 +55,8 @@
 }
 .side-bar-title h3 {
   text-indent: 2em;
+}
+
+.third-bar {
+  padding-bottom: 50px;
 }
